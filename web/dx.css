@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+h1,h2,h3,h4,h5,p,div,a,span,ul, li,ol,dt,dd,strong,img{ padding:0; margin:0; list-style:none; border:0; border:0;}
+body{font-family:"����"; font-size:12px; color:#000;  background:#eaf0e2;}
+.dingbu{background: #1c3654;font-size: 20px}
+.dingxia{background: #23355D;margin-top: 3px;margin-bottom: 3px}
+.dingxia1{ float:left;width:100px;}
+.zhuti_z{width:960px; height:640px; overflow: hidden; margin-left:auto; margin-right:auto}
+.gongneng{width:440px; height:640px; float:left;background: #183D58;font-size: 25px; color:#FFFFFF;  margin-left:auto; margin-right:auto}
+.gnz{width:80px; height: 640px; float:left;background: #23355D
+}
+.jies{text-align:center;background: #183D58;font-size: 42px;}
+.weiba{background: #23355D;margin-top: 3px;margin-bottom: 3px}
+.photo{width:2880px;animation: switch 10s ease-out infinite;}
+.photo > img{ float:left;width:960px; height:640px;}
+.logo{width:380px; height:130px; background:url(img/logo1.jpg);}
+
+@keyframes switch {
+	0%, 25% {
+		margin-left: 0;
+	}
+	35%, 60% {
+		margin-left: -960px;
+	}
+	70%, 100% {
+		margin-left: -1920px;
+	}
+}
