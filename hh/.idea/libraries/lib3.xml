@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/javax.websocket-api.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-container-glassfish-cdi.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-container-grizzly.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-client.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-spi.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-websocket-core.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-container-servlet.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-server.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/phone/lib/tyrus-core.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

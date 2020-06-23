@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆界面</title>
+</head>
+<style>
+    .main{width:200px; height:100px;overflow: hidden; margin-left:auto; margin-right:auto;}
+</style>
+<body style="background:url('image/denglubeijing.jpg'); background-repeat:no-repeat ;
+
+background-size:100% 100%;
+
+background-attachment: fixed;">
+
+<div class="main">
+<br><br><br><br>
+<h1  style=" text-align:center; color:#FFF">欢迎登录</h1>
+<br><br><br><br><br><br><br>
+<form action="/game_war_exploded/loginServlet" method="post" style=" text-align:center">
+    <a style=" font-weight:bold;color:#FFF">用户名:</a><input type="text" name="username" style="width:300px; height:40px;"><br>&nbsp;&nbsp;
+    <a style=" font-weight:bold;color:#FFF">密码：</a><input type="password" name="password" style="width:300px; height:40px;"><br>
+    <input type="submit" value="登录" style="width:100px; height:50px;"/>
+</form>
+</div>
+</body>
+</html>
